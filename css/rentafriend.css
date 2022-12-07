@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.mainContainer{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#rentAFriendNav{
+    color:black;
+    background-image: url("../images/rentAFriendBanner.jpg");
+    background-size:contain;
+   
+}
+#rentAFriendNav a{
+    color:black;
+}
+
+
+.rentAFriendHeader{
+    margin-top: 200px;
+    padding:30px
+}
+.rentAFriendHeader h1{
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+.clickDogImages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.clickDogImages img{
+    width:400px;
+    height: 400px;
+}
+.dogBios{
+    display: flex;
+    flex-direction: column;
+}
+#meetLucy{
+    display: flex;
+    justify-content: space-between;
+}
+
+#meetLucy img{
+    width:400px;
+    height: 400px;
+    
+
+}
+#meetKenobi{
+    display: flex;
+    justify-content: space-between;
+}
+#meetKenobi img{
+    width:400px;
+    height: 400px;
+}
+#meetAbby{
+    display: flex;
+    justify-content: space-between;
+}
+#meetAbby img{
+    width:400px;
+    height: 400px;
+}
+
