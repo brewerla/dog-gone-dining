@@ -7,14 +7,26 @@
 }
 
 body {
+    background-color: #2C3639;
+}
+
+body p, body button {
     font-family: "proxima-nova", sans-serif;
+}
+
+body h1, body h2, body h3 {
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+}
+
+.bg-primary {
+    background-color: #82CD47;
 }
 
 #hero-section {
     background-color: black;
     height: 50vh;
     background-image: url("../images/hero-dog.jpg");
-    background-position: center;
+    background-position: left 0% top 50%;
 
     display: flex;
     color: white;
@@ -28,11 +40,13 @@ body {
 }
 
 #hero-section #hero-content h1, #hero-section #hero-content p {
+    margin-top: 15px;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.356);
 }
 
 #hero-section h1 {
     font-size: 3.5em;
+    color: #82CD47;
 }
 #hero-section p {
     font-size: 1.3em;
@@ -43,7 +57,7 @@ body {
     width: 50%;
     display: flex; 
     column-gap: 30px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 #hero-section #hero-content #hero-buttons > button {
     padding: 10px 15px;
@@ -51,6 +65,13 @@ body {
     border-radius: 5px;
     outline: none;
     border: none;
+    width: 25%;
+}
+
+#hero-section #hero-content #hero-buttons #hero-button-secondary {
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
 }
 
 
@@ -71,6 +92,10 @@ body {
     width: 100%;
 }
 
+#our-food-content {
+    z-index: 4;
+}
+
 #footer {
     position: absolute;
     width: 100%;
@@ -79,4 +104,8 @@ body {
     align-items: center;
     justify-content: center;
     color: white;
+
+    column-gap: 30px;
+
+    z-index: 5;
 }
