@@ -4,3 +4,18 @@
     box-sizing: border-box;
 }
 
+#hero-section {
+    height: 50vh;
+    background-image: url("../images/hero-dog.jpg");
+    background-position: center;
+
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#hero-section #hero-content {
+    width: 80%;
+}

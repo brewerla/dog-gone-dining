@@ -1,0 +1,29 @@
+nav {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    padding: 50px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 80%;
+
+    color: white;
+}
+
+nav > .nav-heading {
+    font-size: 1.7em;
+}
+
+nav > .links > a {
+    text-decoration: none;
+    color: white;
+}
+
+nav > .links > a:not(:first-child) {
+    margin-left: 10px;
+}
