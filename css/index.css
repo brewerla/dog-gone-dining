@@ -32,7 +32,7 @@ a {
 
 #hero-section {
     background-color: black;
-    height: 50vh;
+    height: 75vh;
     background-image: url("../images/hero-dog.jpg");
     background-position: left 0% top 50%;
 
@@ -94,7 +94,7 @@ a {
 
 #our-food {
     background-image: url("../images/food.jpg");
-    height: 50vh;
+    height: 75vh;
     background-position: center;
     background-size: cover;
 
@@ -227,4 +227,8 @@ a {
 
 #join:hover {
     color: #82CD47;
+}
+
+@media screen and (max-width: 815px) {
+    
 }
