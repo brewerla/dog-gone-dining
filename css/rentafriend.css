@@ -158,3 +158,39 @@ body{
     height: 400px;
 }
 
+#footer {
+    position: static;
+    bottom: 0;
+
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+
+    color: white;
+
+    height: 40px;
+}
+a{
+    color:white;
+}
+i{
+    color:white
+}
+
+#insta:hover {
+    color: #E1306C;
+}
+
+#meta:hover {
+    color: #5585e6;
+}
+
+#join:hover {
+    color: #82CD47;
+}
+
+
+
