@@ -1,5 +1,3 @@
-
-
 * {
     padding: 0;
     margin: 0;
@@ -18,8 +16,18 @@ body h1, body h2, body h3 {
     font-family: "IBM Plex Sans Condensed", sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+    font-family: "proxima-nova", sans-serif;
+}
+
 .bg-primary {
     background-color: #82CD47;
+}
+
+.bg-transparent {
+    background-color: transparent;
 }
 
 #hero-section {
@@ -50,6 +58,8 @@ body h1, body h2, body h3 {
 }
 #hero-section p {
     font-size: 1.3em;
+    line-height: 30px;
+    letter-spacing: 1px;
     width: 50%;
 }
 
@@ -66,12 +76,19 @@ body h1, body h2, body h3 {
     outline: none;
     border: none;
     width: 25%;
+    transition: background-color .2s ease-in-out, color .2s ease-in-out;
 }
 
-#hero-section #hero-content #hero-buttons #hero-button-secondary {
+
+#hero-section #hero-content #hero-buttons .btn-secondary {
     border: 2px solid white;
-    background-color: transparent;
     color: white;
+}
+
+#hero-section #hero-content #hero-buttons > button:hover {
+    background-color: white;
+    color: black;
+
 }
 
 
@@ -81,31 +98,133 @@ body h1, body h2, body h3 {
     background-position: center;
     background-size: cover;
 
+    background-color: #4287f532;
+    background-blend-mode: screen;
+
     position: relative;
+
+    display: flex;
+    align-items: center;
 }
 
-#our-food .color-overlay {
-    position: absolute;
-    background-color: #4287f532;
-    z-index: 3;
-    height: 100%;
-    width: 100%;
-}
+
 
 #our-food-content {
-    z-index: 4;
+    width: 80%;
+    margin: 0 auto;
 }
+
+#our-food-content #our-food-content_title-container {
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+}
+#our-food-content #our-food-content_title-container h2 {
+    font-size: 2.5em;
+}
+#our-food-content #our-food-content_title-container p {
+    font-size: 1.1em;
+}
+
+/* Start of the card section */
+
+.cards-container {
+    display: flex;
+    column-gap: 30px;
+}
+
+.cards-container .card {
+    flex: 1 1 0;
+
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+
+    box-shadow: 2px 2px 10px 5px #0000003D;
+}
+
+.cards-container .card .card-title {
+    font-size: 1.5em;
+    color: #82CD47;
+}
+.cards-container .card .card-description {
+    font-size: 1.1em;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-top: 8px;
+}
+
+.cards-container .card .stars {
+    margin-top: 5px;
+}
+
+
+#center-card {
+    position: relative;
+    background-color: #82CD47;
+    top: -15px;
+}
+
+#center-card .card-title {
+    color: black;
+}
+
+#center-card .stars {
+    color: white;
+}
+
+.review-information-container {
+    margin-top: 10px;
+    display: flex;
+    align-items: baseline;
+    column-gap: 10px;
+
+    font-size: .8em;
+
+    color: #1A1A1AA5;
+}
+
+.review-information-container .review-username {
+
+}
+.review-information-container .review-username::before {
+    content: '- ';
+}
+
+.review-information-container .review-date {
+    font-size: .8rem;
+}
+
+
+
+/* End of the card section */
+
 
 #footer {
     position: absolute;
-    width: 100%;
     bottom: 0;
+
+    width: 100%;
+
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
-
     column-gap: 30px;
 
-    z-index: 5;
+    color: white;
+
+    height: 40px;
+}
+
+#insta:hover {
+    color: #E1306C;
+}
+
+#meta:hover {
+    color: #5585e6;
+}
+
+#join:hover {
+    color: #82CD47;
 }
