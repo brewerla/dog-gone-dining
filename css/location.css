@@ -20,6 +20,9 @@ body{
     background-size:contain;
    
 }
+#locationNav a:hover{
+    border-bottom: 2px solid black;
+}
 #locationNav a{
     color:black;
 }

@@ -22,6 +22,9 @@ body{
 #rentAFriendNav a{
     color:black;
 }
+#rentAFriendNav a:hover{
+    border-bottom: 2px solid black;
+}
 
 
 .rentAFriendHeader{
