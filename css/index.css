@@ -92,6 +92,120 @@ a {
 }
 
 
+/* Start of about us section */
+
+#about-section-container {
+    margin: 40px 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+#about-section-centering-container {
+    width: 80%;
+}
+#about-section-container > #about-section-centering-container > div {
+    background-color: white;
+
+    border-radius: 5px;
+
+    padding: 30px;
+
+    box-shadow: 2px 2px 10px 5px #0000003D;
+}
+
+#about-section-container > #about-section-centering-container > .about-section-container_content {
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+#about-section-container .about-section-container_content h2 {
+    font-size: 2.5em;
+    color: #82CD47;
+}
+
+#about-section-container .about-section-container_content h3 {
+    font-size: 1.5em;
+}
+
+#about-section-container .about-section-container_content p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    letter-spacing: .5px;
+    font-size: 1.1em;
+    line-height: 22px;
+    color: #737373;
+}
+
+#contact-header {
+    font-size: 1.5em;
+}
+
+#about-section-container .about-section-container_contact-us {
+    position: relative;
+    top: -50px;
+    right: -45%;
+
+    width: 50%;
+}
+
+#about-section-container .about-section-container_contact-us form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+#about-section-container .about-section-container_contact-us form input {
+    width: 100%;
+    padding: 10px;
+}
+
+#about-section-container .about-section-container_contact-us form textarea {
+    resize: none;
+    width: 100%;
+    padding: 10px;
+    font-family: "proxima-nova", sans-serif;
+}
+
+#about-section-container .about-section-container_contact-us form button {
+    padding: 10px;
+    width: 45%;
+    border: none;
+    background-color: #82CD47;
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px 2px #82CD4770;
+}
+
+#about-section-container .about-section-container_content .about-cards-container {
+    display: flex;
+    column-gap: 30px;
+    margin-top: 30px;
+}
+
+#about-section-container .about-section-container_content .about-cards-container .main-icon {
+    font-size: 2.5em;
+    border: 5px solid #82CD47;
+    color: #82CD47;
+    padding: 15px;
+
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+}
+
+#about-section-container .about-section-container_content .about-cards-container .heading {
+    margin-top: 10px;
+}
+
+#about-section-container .about-section-container_content .about-cards-container p {
+    text-align: center;
+}
+#about-section-container .about-section-container_content .about-cards-container > div {
+    flex: 1 1 0;
+    text-align: center;
+}
+
+/* end of about us section */
+
+
 #our-food {
     background-image: url("../images/food.jpg");
     height: 75vh;
