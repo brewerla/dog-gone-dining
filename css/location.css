@@ -76,6 +76,7 @@ ul{
     border: 5px black;
     border-radius: 8px;
     border-style: ridge;
+    width: 80%;
 
 }
 .locationBox{
