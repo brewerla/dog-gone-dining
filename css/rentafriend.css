@@ -79,12 +79,56 @@ body{
     justify-content: space-between;
 }
 .clickDogImages img{
+    margin-top: 15px;
     width:400px;
     height: 400px;
+    border: 2px #A27B5C;
+    border-radius: 8px;
+    border-style: ridge;
+}
+.meetTheTeam{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  
+}
+.meetTheTeam img{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
 }
 .dogBios{
     display: flex;
     flex-direction: column;
+   
+}
+.dogBios h1{
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    background-color: #DCD7C9;
+    font-size: 60px;
+    text-shadow: 2px 2px black;
+    color:white;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding:8px;
+}
+.dogBios p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    background-color: #A27B5C;
+    font-family: 'proxima-nova',sans-serif;
+    color:white;
+    text-shadow: 1px 1px black;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding:8px;
 }
 #meetLucy{
     display: flex;
