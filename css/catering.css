@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+
+}
+body{
+    background-color: #2C3639;
+    text-align: center;
+}
+.mainContainer{
+   
+    width: 80%;
+    margin:  200px auto 0;
+}
+
+#cateringNav{
+    color:black;
+    background-image: url("../images/rentAFriendBanner.jpg");
+    background-size:contain;
+   
+}
+#cateringNav a:hover{
+    border-bottom: 2px solid black;
+}
+#cateringNav a{
+    color:black;
+}
+
+
+.topBanner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+   
+}
+.topBannerText{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    background-color: #DCD7C9;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  font-size: 30px;
+  -webkit-text-stroke: 0.5px black;
+  text-shadow: 2px 2px black;
+}
+.textBox{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #A27B5C;
+  font-family: 'proxima-nova',sans-serif;
+  color:white;
+  text-shadow: 2px 2px black;
+  font-size: 30px;
+  box-shadow: 1px 1px black;
+ 
+
+}
+.topBanner img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+.cateringHeader h1{
+    text-align: center;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    background-color: #3F4E4F;
+    font-size: 70px;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    color:white;
+    margin-bottom: 40px;
+}
+.corporateBox{
+    grid-area: corporateBox;
+    background-color: #A27B5C;
+    border: 4px black;
+    border-style: ridge;
+
+}
+.corporateBox img{
+    height:400px;
+    width:400px;
+    padding: 5px;
+    background-color: #2C3639;
+    margin: 5px;
+}
+.getTogetherBox{
+grid-area: getTogetherBox;
+background-color: #A27B5C;
+border: 4px black;
+border-style: ridge;
+}
+.getTogetherBox img{
+    height:400px;
+    width:400px;
+    padding: 5px;
+    background-color: #2C3639;
+    margin: 5px;
+}
+.dogRelatedBox{
+    grid-area: dogRelatedBox;
+    background-color: #A27B5C;
+    border: 4px black;
+    border-style: ridge;
+
+}
+.dogRelatedBox img{
+    height:400px;
+    width:400px;
+    padding: 5px;
+    background-color: #2C3639;
+    margin: 5px;
+}
+.cateringGrid{
+    display: grid;
+    text-align: center;
+    grid-gap: 50px;
+    
+    grid-template-areas: "corporateBox getTogetherBox dogRelatedBox";
+}
+.cateringGrid h2{
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    background-color: #DCD7C9;
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+    color:white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 3px black;
+    border-style:groove;
+    margin: 3px;
+}
+
+#footer {
+    position: static;
+    bottom: 0;
+
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+
+    color: white;
+
+    height: 40px;
+}
+a{
+    color:white;
+}
+i{
+    color:white;
+}
+
+#insta:hover {
+    color: #E1306C;
+}
+
+#meta:hover {
+    color: #5585e6;
+}
+
+#join:hover {
+    color: #82CD47;
+}
+
+
+
+@media screen and (max-width: 912px){
+    .cateringGrid{
+        grid-template-areas:
+        "corporateBox"
+        "getTogetherBox"
+        "dogRelatedBox";
+    }
+    .topBannerText{
+        font-size: 15px;
+    }
+    .textBox{
+        font-size: 15px;
+    }
+}

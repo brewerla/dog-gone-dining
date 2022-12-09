@@ -197,3 +197,41 @@ i{
 
 
 
+
+@media screen and (max-width: 912px) {
+    .clickDogImages{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .meetTheTeam img{
+        height: 250px;
+        width: 350px;
+    }
+    #meetLucy{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #meetKenobi{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    #meetKenobi img{
+        margin-top: 20px;
+    }
+    #meetAbby{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+
+    
+}
+
+
+
