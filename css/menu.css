@@ -13,6 +13,11 @@ body h1, body h2, body h3 {
     font-family: "IBM Plex Sans Condensed", sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 #menu-nav {
     position: relative;
 
@@ -141,6 +146,16 @@ body h1, body h2, body h3 {
     text-align: right;
 }
 
+.menu-cards-container .menu-card .dish-image {
+    width: 100px;
+    aspect-ratio: 1 / 1;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+}
+
 #all-natural-image {
     background-image: url("../images/all-natural-meal.jpg");
 }
@@ -151,4 +166,66 @@ body h1, body h2, body h3 {
 
 #vegan-image {
     background-image: url("../images/vegan.jpg");
+}
+
+#pizza-one {
+    background-image: url("../images/menu/sausage-pizza.jpg");
+}
+#pizza-two {
+    background-image: url("../images/menu/broc-pizza.jpg");
+}
+#pizza-three {
+    background-image: url("../images/menu/vegan-pizza.jpg");
+}
+
+#drink-one {
+    background-image: url("../images/menu/fancy-orange-drink.jpg");
+}
+#drink-two {
+    background-image: url("../images/menu/berry-drink.jpg");
+}
+#drink-three {
+    background-image: url("../images/menu/berry-smoothie.jpg");
+}
+
+#side-one {
+    background-image: url("../images/menu/potato-side.jpg");
+}
+#side-two {
+    background-image: url("../images/menu/spicy-potato-side.jpg");
+}
+#side-three {
+    background-image: url("../images/menu/bean-side.jpg");
+}
+
+
+#footer {
+    margin-top: 50px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+
+    background-color: #2C3639;
+
+    color: white;
+    padding: 30px 0;
+}
+
+#footer a {
+    font-family: proxima-nova, sans-serif;
+}
+
+#insta:hover {
+    color: #E1306C;
+}
+
+#meta:hover {
+    color: #5585e6;
+}
+
+#join:hover {
+    color: #82CD47;
 }
