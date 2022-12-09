@@ -1,4 +1,7 @@
 # Dog Gone Dining
+2022-12-09
+
+Created for the Skills USA OTC shootout. 
 
 ## Authors/Team
 - Landen Brewer
