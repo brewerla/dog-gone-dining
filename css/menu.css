@@ -35,27 +35,120 @@ body h1, body h2, body h3 {
 }
 
 #menu-hero-section {
-    height: 75vh;
+    height: 40vh;
     background-image: url("../images/menu-hero-food-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 
     display: flex;
     align-items: center;
-    justify-content: flex-end;
 
     color: white;
-
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.356);
 }
 
 #menu-container #menu-hero-section .menu-hero_content {
-    height: 50%;
-    width: 50%;
-    border: 1px solid white;
-    padding: 50px;
+    width: 100%;
+    background-color: #3F4E4F;
+    padding: 30px;
     text-align: center;
+    font-size: 1.3em;
 }
 
 #menu-container #menu-hero-section .menu-hero_content h1 {
-    font-size: 3.5em;
+    font-size: 3.2em;
+}
+
+.total-menu-sections {
+    width: 80%;
+    margin: 20px auto 0;
+    display: flex;
+}
+
+.total-menu-sections > div {
+    width: 50%;
+}
+
+.specials-container {
+    padding: 30px 0 0 50px;
+
+}
+
+.menu-sections-container {
+    border-right: 1px solid lightgrey;
+    padding-right: 50px;
+}
+
+/* start of menu cards */
+
+.menu-cards-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.menu-section {
+    margin-top: 30px;
+}
+
+.menu-cards-container .menu-card {
+    display: flex;
+    column-gap: 30px;
+
+    border-top: 1px solid lightgrey;
+    padding-top: 10px;
+}
+
+.menu-cards-container .menu-card .menu-card_content {
+
+}
+
+.menu-cards-container .menu-card img {
+    width: 100px;
+    aspect-ratio: 1 / 1;
+
+    border-radius: 3px;
+}
+
+.specials-container > h2 {
+    font-size: 2em;
+}
+
+.special-cards-container {
+    margin-top: 30px;
+}
+.special-cards-container .special-card {
+    margin-bottom: 30px;
+}
+
+.special-cards-container .special-card .special-card_content {
+    margin-top: 10px;
+}
+
+.special-cards-container .special-card .special-card_image {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+
+    border-radius: 3px;
+}
+
+.special-cards-container .special-card .special-card_description {
+    margin-top: 5px;
+}
+
+.special-cards-container > .special-card:nth-child(even) {
+    text-align: right;
+}
+
+#all-natural-image {
+    background-image: url("../images/all-natural-meal.jpg");
+}
+
+#sandwich-image {
+    background-image: url("../images/sandwhich.jpg");
+}
+
+#vegan-image {
+    background-image: url("../images/vegan.jpg");
 }

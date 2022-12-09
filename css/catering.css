@@ -54,13 +54,11 @@ body{
   position: absolute;
   bottom: 20px;
   right: 20px;
-  background-color: black;
   color: white;
   padding-left: 20px;
   padding-right: 20px;
   background-color: #A27B5C;
   font-family: 'proxima-nova',sans-serif;
-  color:white;
   text-shadow: 2px 2px black;
   font-size: 30px;
   box-shadow: 1px 1px black;
@@ -78,15 +76,13 @@ body{
     background-color: #3F4E4F;
     font-size: 70px;
     text-shadow: 2px 2px black;
-    text-align: center;
     color:white;
     margin-bottom: 40px;
 }
 .corporateBox{
     grid-area: corporateBox;
     background-color: #A27B5C;
-    border: 4px black;
-    border-style: ridge;
+    border: 4px ridge black;
 
 }
 .corporateBox img{
@@ -99,8 +95,7 @@ body{
 .getTogetherBox{
 grid-area: getTogetherBox;
 background-color: #A27B5C;
-border: 4px black;
-border-style: ridge;
+border: 4px ridge black;
 }
 .getTogetherBox img{
     height:400px;
@@ -112,8 +107,7 @@ border-style: ridge;
 .dogRelatedBox{
     grid-area: dogRelatedBox;
     background-color: #A27B5C;
-    border: 4px black;
-    border-style: ridge;
+    border: 4px ridge black;
 
 }
 .dogRelatedBox img{
@@ -136,10 +130,7 @@ border-style: ridge;
     font-size: 50px;
     text-shadow: 2px 2px black;
     color:white;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    border: 3px black;
-    border-style:groove;
+    border: 3px groove black;
     margin: 3px;
 }
 
