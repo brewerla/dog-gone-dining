@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body p, body button {
+    font-family: "proxima-nova", sans-serif;
+}
+
+body h1, body h2, body h3 {
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+}
+
+#menu-nav {
+    position: relative;
+
+    width: 100%;
+    color: black;
+    background-image: url("../images/rentAFriendBanner.jpg");
+    background-size: contain;
+    justify-content: space-around;
+}
+
+#menu-nav .links a {
+    color: black;
+}
+#menu-nav .links a:hover {
+    border-bottom-color: black;
+}
+
+#menu-container {
+
+}
+
+#menu-hero-section {
+    height: 75vh;
+    background-image: url("../images/menu-hero-food-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    color: white;
+
+}
+
+#menu-container #menu-hero-section .menu-hero_content {
+    height: 50%;
+    width: 50%;
+    border: 1px solid white;
+    padding: 50px;
+    text-align: center;
+}
+
+#menu-container #menu-hero-section .menu-hero_content h1 {
+    font-size: 3.5em;
+}

@@ -38,3 +38,13 @@ nav > .links > a:not(:first-child) {
 nav > .links > a:hover {
     border-bottom: 2px solid white;
 }
+
+@media screen and (max-width: 815px) {
+    nav {
+        display: block;
+        text-align: center;
+    }
+    nav > .nav-heading {
+        display: none;
+    }
+}

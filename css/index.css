@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #2C3639;
+    background: linear-gradient(to right, #ADA996, #F2F2F2,  #DBDBDB, #EAEAEA);
 }
 
 body p, body button {
@@ -34,7 +34,7 @@ a {
     background-color: black;
     height: 75vh;
     background-image: url("../images/hero-dog.jpg");
-    background-position: left 0% top 50%;
+    background-position: left 0 top 50%;
 
     display: flex;
     color: white;
@@ -328,7 +328,7 @@ a {
 
     color: white;
 
-    height: 40px;
+    height: 100px;
 }
 
 #insta:hover {
@@ -344,5 +344,71 @@ a {
 }
 
 @media screen and (max-width: 815px) {
-    
+    #hero-section #hero-content {
+        text-align: center;
+    }
+    #hero-section #hero-content p, #hero-section #hero-content #hero-buttons {
+        margin: 30px auto 0;
+        width: 100%;
+    }
+
+    #hero-section #hero-content #hero-buttons {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #about-section-container {
+        font-size: .8em;
+        margin: 0;
+    }
+
+    #about-section-container #about-section-centering-container {
+        width: 100%;
+    }
+
+    #about-section-container #about-section-centering-container > div {
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+
+    #about-section-container .about-section-container_content .about-cards-container {
+        flex-direction: column;
+    }
+
+    #about-section-container .about-section-container_contact-us {
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+
+    #our-food .cards-container {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    #center-card {
+        top: 0;
+    }
+
+    #our-food {
+        height: fit-content;
+        padding: 40px 0 100px;
+    }
+    #footer {
+        font-size: .8em;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #hero-section {
+        height: 100vh;
+    }
+
+
+
+
 }
