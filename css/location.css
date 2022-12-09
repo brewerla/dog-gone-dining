@@ -126,3 +126,18 @@ iframe{
     border-style:double;
    
 }
+
+@media screen and (max-width: 912px){
+    .displayFlexbox{
+        flex-direction: column;
+    }
+    .locationBox{
+        margin-top: 20px;
+    }
+
+    .pawBanner img{
+        margin-top: 20px;
+        height: 150px;
+        width:450px;
+    }
+}

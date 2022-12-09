@@ -176,3 +176,20 @@ i{
 #join:hover {
     color: #82CD47;
 }
+
+
+
+@media screen and (max-width: 912px){
+    .cateringGrid{
+        grid-template-areas:
+        "corporateBox"
+        "getTogetherBox"
+        "dogRelatedBox";
+    }
+    .topBannerText{
+        font-size: 15px;
+    }
+    .textBox{
+        font-size: 15px;
+    }
+}
