@@ -123,7 +123,7 @@ iframe{
     border: 10px double #A27B5C;
    
 }
-
+/* Media Query For Anything Tablet Size or smaller */
 @media screen and (max-width: 912px){
     .displayFlexbox{
         flex-direction: column;

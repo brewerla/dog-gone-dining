@@ -169,7 +169,7 @@ i{
 }
 
 
-
+/* Media Query For Anything Tablet Size or smaller */
 @media screen and (max-width: 912px){
     .cateringGrid{
         grid-template-areas:
