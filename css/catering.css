@@ -70,10 +70,12 @@ body{
     min-width: 100%;
     min-height: 100%
 }
-.cateringHeader h1{
-    text-align: center;
-    font-family: 'IBM Plex Sans Condensed', sans-serif;
+.cateringHeader{
     background-color: #3F4E4F;
+}
+.cateringHeader h1{
+    text-align:center;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
     font-size: 70px;
     text-shadow: 2px 2px black;
     color:white;
@@ -120,7 +122,7 @@ border: 4px ridge black;
 .cateringGrid{
     display: grid;
     text-align: center;
-    grid-gap: 50px;
+    grid-gap: 10px;
     
     grid-template-areas: "corporateBox getTogetherBox dogRelatedBox";
 }
